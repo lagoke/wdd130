@@ -1,0 +1,145 @@
+body{
+    background-color: #fcfbfb;
+    max-width:1600px;
+}
+
+p {
+    margin: 0 auto;
+  }
+
+  div.a {
+    text-align: center;
+  }
+  
+  div.b {
+    text-align: left;
+  }
+  
+  div.c {
+    text-align: right;
+  }
+  
+  div.c {
+    text-align: justify;
+  }
+
+
+
+
+  nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    
+}  
+  #hero-msg h1{
+    text-align: center;
+  }
+
+  #hero-msg h4{
+    text-align: center;
+    color: black
+  }
+
+
+  .button-box{
+    text-align: center;
+  }
+
+  main{
+    text-align: center;
+  }
+
+
+section{
+    text-align: center;
+
+}
+
+#background {
+    height: 725px;
+}
+
+header {
+    background-color: #219ebc;
+}
+
+.home-title{
+    background-color:#219ebc;
+    color: black
+}
+
+nav a {
+    background-color:#219ebc ;
+    text-align: center;
+    color: yellow
+
+  }
+
+h4{
+    background-color:#219ebc;
+    color:black
+}
+
+.book, .join{
+    background-color: white;
+    color: #012a4a
+    
+    
+}
+
+.book:hover, .join:hover{
+    background-color: #219ebc;
+    color: black
+}
+#background{
+    background-color: #00b4d8;
+    color: burlywood
+}
+
+.msg{
+    background-color: #0077b6;
+    color: #184e77
+}
+
+.msg h2{
+    background-color: #124559;
+    color: white;
+}
+
+.msg p{
+    background-color: #124559;
+    color: white
+}
+
+footer{
+    background-color: white;
+}
+.home-title{
+    background-color: #219ebc;
+    color: black
+}
+footer a{
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+footer h3{
+    background-color:#219ebc;
+    color: black
+}
+
+footer a:hover{
+    background-color: #8ecae6;
+    color: #e8ac65;
+}
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}   
+.logo{
+    width: 80px;
+}

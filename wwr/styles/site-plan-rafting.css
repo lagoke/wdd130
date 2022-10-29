@@ -34,7 +34,7 @@ body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
 }
 
@@ -223,8 +223,10 @@ a:visited {
 
 .home-grid {
   display: grid;
-  /* max-width: 960px; */
+  /* max-width: 100%; */
   grid-template-columns : 10fr;
+  
+
   
 }
 
@@ -254,7 +256,7 @@ a:visited {
   grid-row: 2/3;
   margin-left: 100px;
   margin-top: 400px;
-  justify-self: center;
+  
   
 }
 
@@ -265,6 +267,8 @@ a:visited {
   margin-top: 400px;
   
 }
+
+
 
 #background{
   grid-column: 1/11;
@@ -306,7 +310,7 @@ footer {
 }
 
 
-
+/* 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
       display: block;
@@ -348,7 +352,7 @@ footer {
   footer {
       margin-top: 25px;
   }
-}
+} */
 
 
 

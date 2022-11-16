@@ -405,7 +405,7 @@ form {
   /* Center the form on the page */
   margin: 0 auto;
   margin-top: 200px;
-  width: 400px;
+  width: 600px;
   /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
@@ -436,7 +436,7 @@ textarea {
   font: 1em sans-serif;
 
   /* Uniform text field size */
-  width: 300px;
+  width: 500px;
   box-sizing: border-box;
 
   /* Match form field borders */

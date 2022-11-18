@@ -27,7 +27,7 @@
             <img id="tech-img" src="images/kytechafro4.png" alt="A lady smilling infront of her computer">
       </div>
       <section id="tech-msg">
-        <h1 class="home-title">Home</h1>
+        <h1 class="home-title">Contact Us</h1>
         <h4>Lets us start the journey with you</h4>
         <div class="button-box">
             
@@ -36,31 +36,26 @@
       </section>
     </div>
     <main>
-      <main class="home-grid">
-        <section class="ladytech-card">
-            <img class="card-img" src="images/kytechafro16.png" alt="lady in front of her computer">
-            <h2>Tech</h2>
-
-            
-        </section>
-        <section class="boytech-card">
-            <img class="card-img" src="images/kytechafro11.png" alt="boy in front of a computer">
-            <h2>Ideas</h2>
-
-            
-    
-        </section>
-      </main>
-        <div class="content-main">
-        
-
-        Welcome to kytechafro.com, the one-stop shop for everything IT. 
-        This is the place where your IT career dreams can be attained. 
-        Let’s get ready! We can’t wait to start your journey with you. Together we can achieve your goals.
-        We promise to match your commitment. You will not be alone in this journey, you will also have the opportunity to network with people,
-        this includes existing members and alumni that have different skill sets from beginners to experts.
-        You will also have the opportunity to partner with mentors that will provide support.
-        </div>
+			<div id="feedback"></div>
+			<form action="/my-handling-form-page" method="post">
+				<ul>
+					<li>
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="user_name" />
+					</li>
+					<li>
+							<label for="mail">E-mail:</label>
+							<input type="email" id="mail" name="user_email" />
+					</li>
+					<li>
+							<label for="msg">Message:</label>
+							<textarea id="msg" name="user_message"></textarea>
+					</li>
+					<li class="button">
+							<button type="submit" name="submit">Send your message</button>
+					</li>
+				</ul>
+			</form>     
 
     </main>
     <footer>
@@ -80,5 +75,22 @@
       </div>
     </footer>
     </div>
+		<script>
+			// get the feedback div element so we can do something with it.
+			const feedbackElement = document.getElementById('feedback');
+			// get the form so we can read what was entered in it.
+			const formElement = document.forms[0];
+			// add a 'listener' to wait for a submission of our form. When that happens run the code below.
+			formElement.addEventListener('submit', function(e) {
+					// stop the form from doing the default action.
+					e.preventDefault();
+					// set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+					feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+					// make the feedback element visible.
+					feedbackElement.style.display = "block";
+					// add a class to move everything down so our message doesn't cover it.
+					document.body.classList.toggle('moveDown');
+			});
+		</script>
 </body>
 </html>

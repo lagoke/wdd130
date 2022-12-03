@@ -48,6 +48,12 @@ Fonts are separated by a | */
     height: 50px;
   
   }
+
+  
+  .logo{
+    height: 50px;
+  
+  }
   
   
   
@@ -60,14 +66,20 @@ Fonts are separated by a | */
     display: block;
     margin: 0 auto;
     max-width: 100%;
+    margin-bottom: 90px;
   
   
   }
+
   
   main section {
     text-align: center;
   }
-  
+
+  main section {
+    text-align: center;
+  }
+
   main section img {
     box-sizing: border-box;
   }
@@ -77,18 +89,22 @@ Fonts are separated by a | */
     font-size: 2em;
     margin-top: 50px;
   }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
   }
+
   h2 {
     text-align: center;
   }
+
   hr {
     height: 3px;
     margin: 35px 0;
     background: var(--accent1-color);
   }
+
   header {
     padding: 1em;
     text-align: center;
@@ -98,9 +114,7 @@ Fonts are separated by a | */
     grid-template-columns: 150px auto;
     margin-bottom: 200px;
   }
-  /* header > h1, header > h2 {
-    color: var(--headline-color-on-color);
-  } */
+
   p {
     font-family: var(--paragraph-font);
     /* color: var(--paragraph-color); */
@@ -175,6 +189,7 @@ Fonts are separated by a | */
       ". left left right right ."
       "page2 page2 . . page3 page3";
   }
+
   .sitemap > div {
     text-align: center;
   }
@@ -215,7 +230,8 @@ Fonts are separated by a | */
     color: white;
   }
 
-#tech {
+
+  #tech {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     margin-top: -320px;
@@ -233,7 +249,6 @@ Fonts are separated by a | */
     max-width: 1600px;
     margin: 0 auto;
   }
-  
 
   
   .logo{
@@ -273,7 +288,7 @@ Fonts are separated by a | */
     grid-template-columns : 10fr;
    
   }
-  
+
   .logo, .icon {
     width: 80px;}
     .book, .join {
@@ -285,11 +300,11 @@ Fonts are separated by a | */
       margin-top: 50px;
       border-radius: 5px;
   }
-  
-  .card-img, .mountains {
+
+  .card-img {
     width: 60%;
   }
-  
+
   .card-img {
     border: 10px solid #201c15;
     transition: transform .5s;
@@ -299,7 +314,7 @@ Fonts are separated by a | */
     opacity: .6;
     transform: scale(1.1);
   }
-  
+
   .ladytech-card {
     grid-column: 2/4;
     grid-row: 2/3;
@@ -315,19 +330,17 @@ Fonts are separated by a | */
     margin-left: 300px;
     margin-top: 500px;
   
-  
-  }
-  
-  .rapids-card{
+}
+
+.rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
     margin-left: 28px;
     margin-top: 400px;
   
   }
-  
-  
-  
+
+
   #background{
     grid-column: 1/11;
     grid-row: 4/9;
@@ -355,10 +368,8 @@ Fonts are separated by a | */
     justify-content: space-around;
     align-items: center;
   }
-  
-  
-  
-  
+
+
   .social{
     display: grid;
     grid-template-columns: 50px 50px 50px;
@@ -369,10 +380,7 @@ Fonts are separated by a | */
     margin-top: 300px;
   }
 
-
-
-
-.content-main{
+  .content-main{
     text-align: center;
     font-size: 20px;
 }
@@ -384,6 +392,7 @@ Fonts are separated by a | */
     grid-row: 2/3;
     margin-top: 250px;
     margin-left: auto;
+    
   
   }
 
@@ -394,6 +403,7 @@ Fonts are separated by a | */
     grid-row: 2/3;
     margin-left: 300px;
     margin-top: 500px;
+    margin-bottom: 90px;
   
 }
 
@@ -402,6 +412,7 @@ Fonts are separated by a | */
     display: inline-block;
     /* max-width: 100%; */
     grid-template-columns : 10fr;
+    margin-bottom: 90px;
 
 }
 
@@ -412,8 +423,6 @@ Fonts are separated by a | */
     margin-bottom: 60px;
 }
 
-
-
 .sittech-card {
 
 
@@ -423,7 +432,6 @@ Fonts are separated by a | */
     margin-left: auto;
   
   }
-
 
   .standtech-card{
     
@@ -508,6 +516,7 @@ form {
   }
 
 
+  
 #contact {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -522,19 +531,20 @@ form {
 }
 
 
-
 #contact-box {
     height: 50px;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
   }
-  
+
   #contact-msg {
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 50px;
   }
+
+
   
   #contact-msg h4 {
     color:burlywood;
@@ -610,6 +620,3 @@ form {
     }
   }
   
-
-
-

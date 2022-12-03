@@ -289,7 +289,25 @@ Fonts are separated by a | */
   .card-img, .mountains {
     width: 60%;
   }
-  
+
+  .card-img2{
+    width:60%
+
+      
+  }
+  .card-img2:hover {
+    opacity: .6;
+    transform: scale(1.1);
+  }
+
+  .card-img2 {
+    border: 10px solid #201c15;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: 90px;
+  }
+
+
   .card-img {
     border: 10px solid #201c15;
     transition: transform .5s;
@@ -318,14 +336,7 @@ Fonts are separated by a | */
   
   }
   
-  .rapids-card{
-    grid-column: 8/10;
-    grid-row: 2/3;
-    margin-left: 28px;
-    margin-top: 400px;
-  
-  }
-  
+ 
   
   
   #background{
